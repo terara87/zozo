@@ -1,0 +1,570 @@
+
+​
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+​
+body {
+    line-height:1;
+}
+​
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+​
+nav ul {
+    list-style:none;
+}
+​
+blockquote, q {
+    quotes:none;
+}
+​
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+​
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+​
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+​
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+​
+del {
+    text-decoration: line-through;
+}
+​
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+​
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+​
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+​
+input, select {
+    vertical-align:middle;
+}
+
+.header{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 38px;
+}
+
+.header a{
+  text-decoration: none;
+    color: #707070;
+}
+
+.header-logo h1{
+font-size: 35px;
+font-family: Hiragino Kaku Gothic ProN;
+border: 1px solid #707070;
+padding: 9px 91px 11px 62px ;
+}
+
+.header-nav ul{
+list-style: none;
+display: flex;
+}
+
+.header-nav li{
+  padding-left: 20px;
+}
+
+.main{
+  background-image: url(responimg/back.jpg.png);
+  background-size: cover;
+  padding-top: 170px;
+  padding-bottom: 180px;
+  margin-bottom: 100px;
+}
+
+.main-with{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-text__big{
+  font-family: Hiragino Kaku Gothic Pro;
+  color: #FFFFFF;
+  font-size: 62px;
+}
+
+.main-text__small{
+  font-family: Hiragino Kaku Gothic Pro;
+  color: #FFFFFF;
+  font-size: 21px;
+}
+
+.main-text{
+display: flex;
+justify-content: flex-end;
+}
+
+.main-second{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.main-second__imgrest p{
+  font-family: Hiragino Kaku Gothic Pro;
+  font-size: 12px;
+  padding-bottom: 9px;
+}
+
+.main-second__imgrest2 p{
+  font-family: Hiragino Kaku Gothic Pro;
+  font-size: 12px;
+  padding-bottom: 9px;
+}
+
+.main-second__img{
+  display: flex;
+}
+
+.main-second__imgrest2{
+  padding: 0px 40px;
+}
+
+.main-third{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-third__textar p{
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+
+.main-third__textarsecond p{
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+
+.main-third__imgtext{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.main-third__big {
+  text-align: center;
+  font-size: 26px;
+  font-family: Hiragino Kaku Gothic Pro;
+  padding-bottom: 38px;
+}
+
+/* news */
+.news{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.news-list{
+  width: 850px;
+margin: 0 auto;
+}
+
+.news-title_text{
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 66px;
+}
+
+.news-list_all{
+  display: flex;
+  border-bottom: 1px solid #DEDEDE;
+  padding-bottom: 18.5px;
+  padding-top: 18.5px;
+  word-break: break-all;
+}
+
+.news-list_a{
+  padding-left: 107px;
+}
+
+.news-list_b{
+  padding-left: 63px;
+}
+
+.news-list_c{
+padding-left: 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* news end*/
+.main-bana{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-bana__text{
+  font-size: 35px;
+  font-family: Hiragino Kaku Gothic Pro;
+  color: #3B3B3B;
+  border: 1px solid  #707070;
+  padding: 15px 100px;
+  text-align: center;
+}
+
+.main-bana__all{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 206px;
+  padding-top: 61px;
+}
+
+.footer{
+  background-color: #EBEBEB;
+}
+
+.footer-with{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text__logo {
+  font-size: 18px;
+  font-family: Hiragino Kaku Gothic Pro;
+  color: #3B3B3B;
+  padding-bottom: 27px;
+}
+
+.footer-text__place {
+  font-family: Hiragino Kaku Gothic Pro;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  color: #3B3B3B;
+}
+
+.footer-text__place span{
+  padding-bottom: 12px;
+}
+
+.footer-all{
+  display: flex;
+  padding-top: 77px;
+  padding-bottom: 86px;
+  justify-content: space-between;
+}
+
+.footer-nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.footer-nav a{
+  text-decoration: none;
+  color: #707070;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.footer-nav{
+  display: flex;
+  align-items: center;
+}
+
+.footer-name{
+  background-color: #6A6A6A;
+  padding: 20px 0px;
+}
+
+.footer-name__with{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-name__text{
+  font-family: Hiragino Kaku Gothic Pro;
+  font-size: 12px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .header{
+    width: 100%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    padding-bottom: 63px;
+    padding-top: 20px;
+  }
+.header-logo h1{
+padding: 10px;
+font-size: 30px;
+}
+.header-nav{
+  display: none;
+}
+.main-with{
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.main-text{
+justify-content: center;
+}
+.main-text__none{
+display: none;
+}
+.main-text__big{
+  font-size: 30px;
+}
+.main-second{
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.main-second__img{
+  display: block;
+}
+.main-second__none{
+  font-family: Hiragino Kaku Gothic Pro;
+  font-size: 15px;
+  padding-top: 18px;
+  padding-bottom: 60px;
+}
+.main-second__imgrest2{
+  padding: 0px;
+}
+.main-second__imgrest p{
+  display: none;
+}
+.main-second__imgrest2 p{
+  display: none;
+}
+.main-third{
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.main-third__imgtext{
+  display: block;
+}
+.main-third__textar{
+  display: block;
+}
+.main-third__big{
+  display: none;
+}
+.main-third__none{
+  text-align: center;
+  font-family: Hiragino Kaku Gothic Pro;
+  font-size: 34px;
+  padding-top: 63px;
+  padding-bottom: 18px;
+}
+.main-third__imgtext{
+display: block;
+}
+.main-third__imgar{
+  padding-bottom: 15px;
+}
+.main-third__textarsecond p{
+  display: none;
+}
+.main-third__textar{
+  display: none;
+}
+.main-third__nonesecond p{
+  font-size: 14px;
+  padding-bottom: 16px;
+}
+.main-third__nonesecond{
+padding: 0px 36px;
+}
+.main-third__imgar img{
+  width: 100%;
+}
+/* news */
+.news{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.news-list{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.news-list_all{
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.news-pc{
+  display: none;
+}
+/* kokomade */
+.main-bana{
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.main-bana__all{
+  display: block;
+  padding-bottom: 61px;
+
+}
+.main-bana__text{
+margin-bottom: 30px;
+padding: 24px 120px;
+text-align: center;
+font-size: 28px;
+}
+.footer-with{
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 51px;
+}
+.footer-all{
+display: block;
+text-align: center;
+}
+.footer-nav {
+  display: none;
+}
+.footer-none{
+  background-color: #ffff;
+  border: 1px solid #707070;
+  text-align: center;
+}
+.footer-none a{
+text-decoration: none;
+color: #707070;
+padding-left: 31px;
+
+}
+.footer-none li{
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.footer-none__border{
+    border-bottom: 1px solid #707070;
+}
+.footer-nav__text{
+  display: block;
+}
+.main-nav__border {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.footer-text{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-name__with{
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+
+}
+
+
+@media screen and (min-width: 1024px){
+  .header-manu{
+    display: none;
+  }
+  .main-third__none{
+    display: none;
+  }
+  .main-third__nonesecond{
+    display: none;
+  }
+  .footer-none{
+    display: none;
+  }
+  .main-second__none{
+    display: none;
+  }
+  .main-news__txtnone{
+    display: none;
+  }
+  .news-responce{
+    display: none;
+  }
+}
